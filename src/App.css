@@ -1,0 +1,114 @@
+#root{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav {
+  width: 100%;
+  max-width: 1000px;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+nav div{
+  display: flex;
+  gap: 20px;
+}
+
+nav svg{
+  height: 25px;
+  fill: white;
+}
+
+.homedescription{
+    height: 80vh;
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.homedescription div{
+  margin-bottom: 20px;
+}
+
+.homedescription h1{
+  font-size: 40px;
+  margin: 0px;
+}
+
+.homedescription h2{
+  font-size: 20px;
+  color: #ffffff71;
+  margin: 0px;
+}
+
+.homedescription .aboutme{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+}
+
+.homedescription img{
+  width: 200px;
+  border-radius: 50%;
+}
+
+.projectslist ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  color: white;
+}
+
+.projectslist li{
+
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  gap: 40px;
+  background-color: #ffffff1f;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.projectslist img{
+  width: 400px;
+  border-radius: 20px;
+}
+
+.projectslist div{
+  width: 100%;
+  max-width: 330px;
+}
+
+.listPresentation{
+  width: 100%;
+  max-width: 700px;
+}
+
+.listPresentation div{
+  margin-bottom: 80px;
+}
+.listPresentation li{
+  margin-bottom: 30px;
+}
+.listPresentation h2{
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.listPresentation h3{
+  margin:  0;
+}
+.listPresentation p{
+  margin: 5px 0;
+}
+
