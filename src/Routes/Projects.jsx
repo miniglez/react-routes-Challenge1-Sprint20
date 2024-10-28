@@ -11,8 +11,8 @@ const Projects = () => {
                 <ul>
                 {ProjectsData.map((project) => {
                         return (
-                            <Link to={`/projects/${project.id}`}>
-                                <li key={project.id}>
+                            <Link key={project.id} to={`/projects/${project.id}`}>
+                                <li>
                                     <div>
                                         <h2>{project.name}</h2>
                                         <p>{project.miniDescription}</p>

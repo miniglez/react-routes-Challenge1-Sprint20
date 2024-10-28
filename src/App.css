@@ -112,3 +112,29 @@ nav svg{
   margin: 5px 0;
 }
 
+.singleProject{
+  width: 100%;
+  max-width: 1200px;
+}
+
+.singleProject h1{
+  text-align: center;
+}
+
+.singleProject article{
+  display: flex;
+  gap: 30px;
+}
+
+.singleProject img {
+  height: 300px;
+}
+
+.singleProject h3{
+  font-size: 22px;
+}
+
+.singleProject svg{
+  height: 30px;
+  fill: white;
+}
